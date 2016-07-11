@@ -1,0 +1,98 @@
+.sideMenu {
+  	list-style-type: none;
+	position: fixed;
+	margin: auto;
+	top: 59px;
+	width: 225px;
+	height: 300px;
+	background-color: black;
+	overflow: hidden;
+}
+.sideMenu a {
+	text-decoration: none;
+	transition: opacity .5s;
+	overflow: hidden;
+}
+.sideMenu a:hover{
+	opacity: .5;
+}
+.sideMenu p {
+	font-family: "Courant";
+	font-size: 25px;
+	color: rgba(255,255,255,1);
+	transition: color .3s, border-bottom .5s;
+	position: absolute;
+	overflow: hidden;
+}
+.icon {
+	position: absolute;
+	width: 25px;
+	height: 25px;
+	background: url(Pictures/homeIcon.png) no-repeat;
+	background-size: 100%;
+	top: 7%;
+	left: 7%;
+}
+.itm1, .itm2, .itm3, .itm4 {
+	position: absolute;
+	width: 15px;
+	height: 15px;
+	border-radius: 50%;
+	border: 2px solid grey;
+}
+.home p {
+	display: block;
+	top: 0;
+	left: 20%;
+}
+.resume p {
+	display: block;
+	top: 17%;
+	left: 20%;
+}
+.edu p {
+	display: block;
+	top: 34%;
+	left: 20%;
+}
+.code p {
+	display: block;
+	top: 51%;
+	left: 20%;
+}
+.photo p {
+	display: block;
+	top: 68%;
+	left: 20%;
+}
+.itm1 {
+	top: 26%;
+	left: 8%;
+}
+.itm2 {
+	top: 43%;
+	left: 8%;
+}
+.itm3 {
+	top: 60%;
+	left: 8%;
+}
+.itm4 {
+	top: 77.3%;
+	left: 8%;
+}
+.home p:hover, .resume p:hover, .edu p:hover, .code p:hover, .photo p:hover {
+	color: rgba(255,255,255,1);
+}
+.home p:after, .resume p:after, .edu p:after, .code p:after, .photo p:after {
+	content: '';
+    display: block;
+    margin: auto;
+    width: 0px;
+   	border-bottom: 2px solid grey;
+    transition: width .5s ease, border-bottom .5s ease,opacity .5s;
+}
+.home p:hover:after, .resume p:hover:after, .edu p:hover:after, .code p:hover:after, .photo p:hover:after {
+	width: 100%;
+}
+

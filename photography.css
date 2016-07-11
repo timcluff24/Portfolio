@@ -1,0 +1,23 @@
+html {
+	height: 100%;
+	width: 100%;
+}
+body {
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-image: url(Pictures/mainPic.jpg);
+	background-color: black;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	min-height: 100%;
+	min-width: 100%;
+	overflow: hidden;
+}
+.photographyContainer {
+	position: relative;
+	width: 100%;
+	height: 1500px;
+	margin: auto;
+	overflow: hidden;
+}

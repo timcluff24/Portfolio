@@ -1,0 +1,225 @@
+html {
+	height: 100%;
+	width: 100%;
+}
+body {
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-image: url(Pictures/mainPic.jpg);
+	background-color: black;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	min-height: 100%;
+	min-width: 100%;
+	overflow: scroll;
+}
+.workContainer {
+	position: relative;
+	width: 100%;
+	height: 900px;
+	margin: auto;
+	overflow: hidden;
+}
+.resBut {
+	background: rgba(105,105,105,.6) no-repeat;
+	position: absolute;
+	width: 280px;
+	height: 280px;
+	margin: 0;
+	left: 17%;
+	top: 10%;
+	padding: 0;
+	overflow: hidden;
+	border-radius: 10%;
+	float: right;
+	}
+	.resBut a {
+		text-decoration: none;	
+	}
+	.resBut p {
+		width: 280px;
+		height: 280px;
+		margin: 0;
+		font-family: "Courant";
+		font-size: 20px;
+		color: black;
+		font-weight: bold;
+		text-align: center;
+		vertical-align: middle;
+		line-height: 300px;
+		background-color: #7E7E7E;
+		opacity: 0;
+		border-radius: 10%;
+		z-index: 1;
+	}
+	.resPic {
+		background: url(Pictures/resumeMenu.png) no-repeat;
+		background-size: 100%;
+		position: absolute;
+		top: 10%;
+		left: 10%;
+		width: 200px;
+		height: 200px;
+	}
+	.resBut h1 {
+		position: absolute;
+		top: 87%;
+		left: 70%;
+		font-family: "Didot";
+		color: black;
+		font-size: 18px;
+	}
+
+.eduBut {
+	background: rgba(105,105,105,.6) no-repeat;
+	position: absolute;
+	width: 280px;
+	height: 280px;
+	top: 10%;
+	left: 57%;
+	margin: auto;
+	padding: 0;
+	overflow: hidden;
+	border-radius: 10%;
+	}
+	.eduBut a {
+		text-decoration: none;
+	}
+	.eduBut p {
+		width: 280px;
+		height: 280px;
+		margin: 0;
+		font-family: "Courant";
+		font-size: 20px;
+		color: black;
+		font-weight: bold;
+		text-align: center;
+		vertical-align: middle;
+		line-height: 300px;
+		background-color: #7E7E7E;
+		opacity: 0;
+		z-index: 1;
+		border-radius: 10%;
+	}
+	.eduPic {
+		background: url(Pictures/edMenu.png) no-repeat;
+		background-size: 100%;
+		position: absolute;
+		top: 10%;
+		left: 10%;
+		width: 230px;
+		height: 230px;
+	}
+	.eduBut h1 {
+		position: absolute;
+		top: 87%;
+		left: 62%;
+		font-family: "Didot";
+		color: black;
+		font-size: 18px;
+	}
+.phoBut {
+	background: rgba(105,105,105,.6) no-repeat;
+	position: absolute;
+	width: 280px;
+	height: 280px;
+	margin: auto;
+	left: 57%;
+	top: 50%;
+	padding: 0;
+	overflow: hidden;
+	border-radius: 10%;
+	}
+	.phoBut a {
+		text-decoration: none;
+	}
+	.phoBut p {
+		width: 280px;
+		height: 280px;
+		margin: 0;
+		font-family: "Courant";
+		font-size: 20px;
+		color: black;
+		font-weight: bold;
+		text-align: center;
+		vertical-align: middle;
+		line-height: 300px;
+		background-color: #7E7E7E;
+		opacity: 0;
+		z-index: 1;
+		border-radius: 10%;
+	}
+	
+	.phoPic {
+		background: url(Pictures/photoMenu.png) no-repeat;
+		background-size: 100%;
+		position: absolute;
+		top: 12%;
+		left: 15%;
+		width: 200px;
+		height: 200px;
+	}
+	.phoBut h1 {
+		position: absolute;
+		top: 87%;
+		left: 56%;
+		font-family: "Didot";
+		color: black;
+		font-size: 18px;
+	}
+
+.prgBut {
+	background: rgba(105,105,105,.6) no-repeat;
+	position: absolute;
+	width: 280px;
+	height: 280px;
+	top: 50%;
+	left: 17%;
+	margin: auto;
+	padding: 0;
+	overflow: hidden;
+	border-radius: 10%;
+	}
+	.prgBut a {
+		text-decoration: none;
+	}
+	.prgBut p {
+		width: 280px;
+		height: 280px;
+		margin: 0;
+		font-family: "Courant";
+		font-size: 20px;
+		color: black;
+		font-weight: bold;
+		text-align: center;
+		vertical-align: middle;
+		line-height: 300px;
+		background-color: #7E7E7E;
+		opacity: 0;
+		z-index: 1;
+		border-radius: 10%;
+	}
+	.prgPic {
+		background: url(Pictures/devMenu.png) no-repeat;
+		background-size: 120%;
+		position: absolute;
+		bottom: 5%;
+		right: 10%;
+		width: 280px;
+		height: 280px;
+	}
+	.prgBut h1 {
+		position: absolute;
+		top: 87%;
+		left: 52%;
+		font-family: "Didot";
+		color: black;
+		font-size: 18px;
+	}
+	.resBut p, .eduBut p, .phoBut p, .prgBut p {
+		transition: opacity .5s ease-out;
+	}
+	.resBut p:hover, .eduBut p:hover, .phoBut p:hover, .prgBut p:hover {
+		opacity: .8;
+	}
