@@ -1,0 +1,63 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Timothy Cluff - Contact</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+        <link rel="stylesheet" href="navBar.css">
+        <link rel="stylesheet" href="photography.css">
+    </head>
+    <body>
+    	<div class="photographyContainer">
+    		<ul class="nav">
+            	<li class="one"><a href="mainPage.html">My Work</a></li>
+            	<li class="two"><a href="contactPage.html">Contact</a></li>
+            	<li class="three"><a href="aboutPage.html">About</a></li>
+            	<li style="float: right"><a class="mainLink" href="index.html">Timothy Cluff</a></li>
+     		</ul>
+
+        	 <div class="dropDown">
+                <button class="dropBtn"></button>
+     			<ul class="sideMenu">
+     				<li class="home"><a href="mainPage.html">
+     					<div class="icon"></div>
+     					<p>Home</p>
+     				</a></li>
+
+     				<li class="resume"><a href="resumePage.html">
+     					<div class="itm1"></div>
+     					<p>Resume</p>
+     				</a></li>
+
+                    <li class="edu"><a href="educationPage.html">
+                        <div class="itm2"></div>
+                        <p>Education</p>
+                    </a></li>
+	
+                    <li class="code"><a href="programmingPage.html">
+                        <div class="itm3"></div>
+                        <p>Programming</p>
+                    </a></li>
+
+                    <li class="photo"><a href="photographyPage.html">
+                        <div class="itm4" style="background-color: white"></div>
+                        <p>Photography</p>
+                    </a></li>   
+
+                    <style>
+                        .photo p {
+                            border-bottom: 2px solid grey;
+                            opacity: .5;
+                        }
+                        .photo p:after {
+                            transition: none;
+                        }
+                        .photo p:hover:after {
+                            width: 0;
+                        }
+                    </style>
+                    <script src="script.js"></script>
+     			</ul>
+     		</div>
+        </div>
+    </body>
+</html>

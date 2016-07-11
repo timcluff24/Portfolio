@@ -1,0 +1,45 @@
+body {
+	background-image: url(Pictures/mountains.jpg);
+	background-repeat: no-repeat;
+	background-size: 115%;
+	overflow: hidden;
+}
+.indexContainer {
+	position: absolute;
+	width: 1300px;
+	height: 825px;
+	margin: 0;
+}
+h1 {
+	position: relative;
+	left: 35%;
+	top: 10%;
+	font-family: "Didot";
+	font-weight: bold;
+	font-size: 60px;
+}
+a {
+	text-decoration: none;
+	color: black;
+}
+.enter {
+	position: absolute;
+	left: 45%;
+	top: 27%;
+	width: 200px;
+	height: 20px;
+	background-color: grey;
+	font-family: "Didot";
+	text-align: center;
+	padding-bottom: 10px;
+	padding-top: 8px;
+	border: 2px solid black;
+	border-radius: 3%;
+	opacity: .8;
+	font-size: 20px;
+	cursor: pointer;
+	transition: opacity .2s;
+}
+.enter:hover {
+	opacity: 1;
+}
